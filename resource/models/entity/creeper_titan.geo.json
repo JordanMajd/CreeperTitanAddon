@@ -1,0 +1,347 @@
+{
+    "format_version": "1.8.0",
+    "geometry.creeper_titan.v1.8": {
+        "visible_bounds_width": 2048,
+        "visible_bounds_height": 2048,
+        "visible_bounds_offset": [
+            0,
+            6,
+            0
+        ],
+        "texturewidth": 512,
+        "textureheight": 256,
+        "bones": [
+            {
+                "name": "body",
+                "cubes": [
+                    {
+                        "origin": [
+                            -32,
+                            48,
+                            -16
+                        ],
+                        "size": [
+                            64,
+                            96,
+                            32
+                        ],
+                        "uv": [
+                            128,
+                            128
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "head",
+                "parent": "body",
+                "pivot": [
+                    0,
+                    144,
+                    0
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -32,
+                            144,
+                            -32
+                        ],
+                        "size": [
+                            64,
+                            64,
+                            64
+                        ],
+                        "uv": [
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "leg0",
+                "parent": "body",
+                "pivot": [
+                    -16,
+                    48,
+                    32
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -32,
+                            0,
+                            16
+                        ],
+                        "size": [
+                            32,
+                            48,
+                            32
+                        ],
+                        "uv": [
+                            0,
+                            128
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "leg1",
+                "parent": "body",
+                "pivot": [
+                    16,
+                    48,
+                    32
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            0,
+                            0,
+                            16
+                        ],
+                        "size": [
+                            32,
+                            48,
+                            32
+                        ],
+                        "uv": [
+                            0,
+                            128
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "leg2",
+                "parent": "body",
+                "pivot": [
+                    -16,
+                    48,
+                    -32
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -32,
+                            0,
+                            -48
+                        ],
+                        "size": [
+                            32,
+                            48,
+                            32
+                        ],
+                        "uv": [
+                            0,
+                            128
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "leg3",
+                "parent": "body",
+                "pivot": [
+                    16,
+                    48,
+                    -32
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            0,
+                            0,
+                            -48
+                        ],
+                        "size": [
+                            32,
+                            48,
+                            32
+                        ],
+                        "uv": [
+                            0,
+                            128
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "geometry.creeper_titan.charged.v1.8": {
+        "visible_bounds_width": 2048,
+        "visible_bounds_height": 2048,
+        "visible_bounds_offset": [
+            0,
+            6,
+            0
+        ],
+        "texturewidth": 512,
+        "textureheight": 256,
+        "bones": [
+            {
+                "name": "body",
+                "cubes": [
+                    {
+                        "origin": [
+                            -32,
+                            48,
+                            -16
+                        ],
+                        "size": [
+                            64,
+                            96,
+                            32
+                        ],
+                        "uv": [
+                            128,
+                            128
+                        ]
+                    }
+                ],
+                "inflate": 2
+            },
+            {
+                "name": "head",
+                "parent": "body",
+                "pivot": [
+                    0,
+                    144,
+                    0
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -32,
+                            144,
+                            -32
+                        ],
+                        "size": [
+                            64,
+                            64,
+                            64
+                        ],
+                        "uv": [
+                            0,
+                            0
+                        ]
+                    }
+                ],
+                "inflate": 2
+            },
+            {
+                "name": "leg0",
+                "parent": "body",
+                "pivot": [
+                    -16,
+                    48,
+                    32
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -32,
+                            0,
+                            16
+                        ],
+                        "size": [
+                            32,
+                            48,
+                            32
+                        ],
+                        "uv": [
+                            0,
+                            128
+                        ]
+                    }
+                ],
+                "inflate": 2
+            },
+            {
+                "name": "leg1",
+                "parent": "body",
+                "pivot": [
+                    16,
+                    48,
+                    32
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            0,
+                            0,
+                            16
+                        ],
+                        "size": [
+                            32,
+                            48,
+                            32
+                        ],
+                        "uv": [
+                            0,
+                            128
+                        ]
+                    }
+                ],
+                "inflate": 2
+            },
+            {
+                "name": "leg2",
+                "parent": "body",
+                "pivot": [
+                    -16,
+                    48,
+                    -32
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -32,
+                            0,
+                            -48
+                        ],
+                        "size": [
+                            32,
+                            48,
+                            32
+                        ],
+                        "uv": [
+                            0,
+                            128
+                        ]
+                    }
+                ],
+                "inflate": 2
+            },
+            {
+                "name": "leg3",
+                "parent": "body",
+                "pivot": [
+                    16,
+                    48,
+                    -32
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            0,
+                            0,
+                            -48
+                        ],
+                        "size": [
+                            32,
+                            48,
+                            32
+                        ],
+                        "uv": [
+                            0,
+                            128
+                        ]
+                    }
+                ],
+                "inflate": 2
+            }
+        ]
+    }
+}

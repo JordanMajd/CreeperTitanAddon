@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Behavior pack to makes Titan Creepers",
+    "name": "Titan Creeper Behavior Pack",
+    "uuid": "b5fad681-209c-4cf2-aba2-b578a87616d9",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Behavior pack to makes Titan Creepers",
+      "type": "data",
+      "uuid": "0ba4be28-6639-4d0a-9b4f-04657231c9e8",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "9ef5beea-a094-421f-ae68-6a86168cd8e3",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}
