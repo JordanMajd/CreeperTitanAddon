@@ -1,18 +1,30 @@
 {
-    "format_version": 2,
-    "header": {
-        "description": "Resource pack to make Titan Creepers",
-        "name": "Titan Creeper Resource Pack",
-        "uuid": "9ef5beea-a094-421f-ae68-6a86168cd8e3",
-        "version": [0, 0, 1],
-        "min_engine_version": [ 1, 16, 0 ]
-    },
-    "modules": [
-        {
-            "description": "Resource pack to make Titan Creepers",
-            "type": "resources",
-            "uuid": "e3910b2a-135e-459c-80c7-7060522f204d",
-            "version": [0, 0, 1]
-        }
+  "format_version": 2,
+  "header": {
+    "description": "Resource pack to make Titan Creepers",
+    "name": "Titan Creeper Resource Pack",
+    "uuid": "9ef5beea-a094-421f-ae68-6a86168cd8e3",
+    "version": [
+      0,
+      0,
+      3
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
     ]
+  },
+  "modules": [
+    {
+      "description": "Resource pack to make Titan Creepers",
+      "type": "resources",
+      "uuid": "e3910b2a-135e-459c-80c7-7060522f204d",
+      "version": [
+        0,
+        0,
+        3
+      ]
+    }
+  ]
 }

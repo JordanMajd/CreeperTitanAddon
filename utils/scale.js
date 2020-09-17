@@ -6,11 +6,11 @@ const entityName = 'creeper';
 const newEntityName = 'creeper_titan';
 const scaleFactor = 8.0;
 
-const vanillaPath = '../../Vanilla_Resource_Pack_1.16.20';
+const sourcePath = '../';
 const entityPath = 'models/entity';
 const fileExtension = `.geo.json`;
 
-const entityData = JSON.parse(fs.readFileSync(`${vanillaPath}/${entityPath}/${entityName}${fileExtension}`));
+const entityData = JSON.parse(fs.readFileSync(`${sourcePath}/${entityPath}/${entityName}${fileExtension}`));
 
 let newEntityData = {};
 for (const [key, value] of Object.entries(entityData)) {
@@ -36,8 +36,11 @@ function scaleBone(bone){
   console.log(bone.name);
   let retBone = {
     // inflate: bone.inflate ? bone.inflate * scaleFactor : scaleFactor,
-    cubes: bone.cubes.map(scaleCube),
   };
+
+  if(bone.cubes) {
+    retBone.cubes = bone.cubes.map(scaleCube);
+  }
 
   if(bone.rotation){
     retBone.rotation = bone.rotation.map(mul);
